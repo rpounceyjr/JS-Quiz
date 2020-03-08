@@ -1,0 +1,73 @@
+body{
+    background-color: purple;
+}
+
+.container {
+    /* font-family: 'Eczar', serif; */
+    font-family: 'Anonymous Pro', monospace;
+
+}
+
+header {
+    background-color: lightgrey;
+    height:150px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+#quiz {
+    margin: 25px;
+    font-size: 30px;
+    background-color: lightseagreen;
+    padding: 0px;
+    margin: 0;
+    margin-top: 10px;
+    padding-bottom: 25px;
+}
+#quiz-begin{
+    cursor: pointer;
+   
+}
+
+#quiz-begin:hover {
+    font-style: italic;
+}
+
+.choice-div0 {
+    color: purple;
+    cursor: pointer;
+}
+.choice-div0:hover {
+    font-style: italic;
+}
+.choice-div1 {
+    color: purple;
+    cursor: pointer;
+}
+.choice-div1:hover {
+    font-style: italic;
+}
+.choice-div2 {
+    color: purple;
+    cursor: pointer;
+}
+.choice-div2:hover {
+    font-style: italic;
+}
+.choice-div3 {
+    color: purple;
+    cursor: pointer; 
+}
+.choice-div3:hover {
+    font-style: italic;
+}
+.jumbotron{
+    background-color: lightgray;
+}
+.button-row {
+    padding: 25px;
+}
+
+.quiz-container{
+    background-color: purple;
+}

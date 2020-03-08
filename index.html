@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Eczar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container quiz-container">
+        <header>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <a href="scores.html"><h5>View High Scores</h5></a>
+                    <div class="row">
+                        <div class="col-12">Your Score: <span id="score-span">0</span></div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <h1>Code Quiz</h1>
+                </div>
+                <div class="col-sm-4 timer-div"><h4>Time Remaining: <span id="timer"></span></h4></div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-12" id="quiz-begin">
+                </div>
+            </div>
+        </header>
+        <div class="row text-center">
+            <div class="col-sm-12" id="quiz">
+            </div>
+        </div>
+
+    </div>
+
+<footer></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

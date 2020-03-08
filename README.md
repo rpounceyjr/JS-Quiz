@@ -1,4 +1,4 @@
-# JS-Quiz
+# Code-Quiz-Repo
 A timed quiz on JavaScript basics. The quiz page shows a timer and the user's current score.  There is a link to view the high score page.  When the text in the middle of the header is clicked the quiz begins.
 
 [](images/start_page_screenshot.png)
